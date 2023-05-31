@@ -1,0 +1,38 @@
+body {
+    display: flex;/*Permet d'appeler flex pour avoir une page organisée*/
+    flex-direction: column;/*Précise la dirrection de l'effet de flex*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; /*Changer la couleur de fond si besoin*/
+}
+
+h1 {
+    font-size: 8em;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#counterDisplay {/*Le # permet de cibler precisement l'element avec l'ID précisé après */
+    font-size: 12em; /*Taille du compteur */
+    color: black;/*Coueleur de police d'écriture en noir */
+}
+
+#button-interactions-container{
+    display: flex;
+    flex-direction: column; /*On aligne le contenu de button-interactions-container en colonne*/
+    align-items: center; /*On centre horizontalement */
+    margin-top: 10px;
+}
+
+#dcrBtn,
+#rstBtn,
+#incrBtn {
+    font-size: 3em; /*Taille de police des boutons*/
+    padding: 10px 20px; /*Espacement inter-boutons*/
+    background-color: #4285F4; /*Couleur de fond des boutons*/
+    color: white; /*Couleur du texte des boutons*/
+    border-radius: 5px; /*Arrondi des boutons*/
+    margin-bottom: 10px; /*Espacement entre les boutons*/
+}
+
